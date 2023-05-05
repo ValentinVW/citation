@@ -26,14 +26,6 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
-    new CopyPlugin({
-      patterns: [
-        {
-          from: "./src/assets/images/*",
-          to: "assets/images/[name][ext]",
-        },
-      ],
-    }),
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: path.join(__dirname, "./src/index.html"),
