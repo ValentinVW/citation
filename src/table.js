@@ -1,4 +1,4 @@
-let citation = [
+export let citation = [
   "Ta Maman t'embrasse.",
   "Certaines erreurs méritent d'être commises plusieurs fois.",
   "Un jour tu es le pigeon, le lendemain la statue. Aujourd'hui, t'es plutôt côté statue.",
